@@ -2,12 +2,19 @@
 
 # Requirements
 
+* [Oracle VM VirtualBox](https://www.virtualbox.org)
+* [Vagrant](http://www.vagrantup.com)
+* [Berkshelf](http://berkshelf.com)
+
 # Usage
 
-# Attributes
-
-# Recipes
+    $ vagrant plugin install vagrant-berkshelf
+    $ vagrant plugin install vagrant-vbguest
+    $ git clone git@github.com:holidayworking/vagrant-solr.git
+    $ cd jubabox
+    $ bundle vagrant-solr
+    $ vagrant up
 
 # Author
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Hidekazu Tanaka (<hidekazu.tanaka@gmail.com>)
