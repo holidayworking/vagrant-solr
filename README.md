@@ -11,8 +11,8 @@
     $ vagrant plugin install vagrant-berkshelf
     $ vagrant plugin install vagrant-vbguest
     $ git clone git@github.com:holidayworking/vagrant-solr.git
-    $ cd jubabox
-    $ bundle vagrant-solr
+    $ cd vagrant-solr
+    $ bundle install
     $ vagrant up
 
 # Author
